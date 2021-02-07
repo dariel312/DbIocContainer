@@ -26,7 +26,7 @@ import {DbIocContainer} from "./index.ts"; //Not an NPM package atm
 export class MyDependency  {...}
 
 //Registering Factory function
- DbIocContainer.resolve<MyDependency>((services) => {
+ DbIocContainer.register<MyDependency>((services) => {
     let dep1 = services.resolve<MyDependency2>();
     let dep2 = services.resolve<MyDependency3>();
 
@@ -34,7 +34,7 @@ export class MyDependency  {...}
  });
 
 //Resolving dependencies
-let obj = DbIocContainer.resolve(<name of class as string>);
+let obj = DbIocContainer.resolve<MyDependency>(<name of class as string>);
 ```
 
 ## Considerations
