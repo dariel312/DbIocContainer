@@ -1,0 +1,30 @@
+{
+   "compileOnSave": true,
+   "compilerOptions": {
+      "rootDir": "src",
+      "outDir": "dist",
+      "baseUrl": "./",
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": true,
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "target": "es6",
+      "lib": ["es6"],
+      "allowJs": true,
+      "checkJs": false,
+      "composite": true,
+      "paths": {
+         "@db-ioc/*": ["./src/*"]
+      }
+   },
+   "include": ["src"],
+   "references": [ ]
+   // "exclude": [
+   //   "test",
+   //   "dist",
+   //   "src/**/*.js"
+   // ]
+}

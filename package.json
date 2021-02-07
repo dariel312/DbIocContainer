@@ -1,0 +1,17 @@
+{
+  "name": "db-ioc",
+  "version": "1.0.0",
+  "description": "Easy to use IoC Library",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile" : "tsc --sourceMap",
+    "run" : "tsc --sourceMap && node ./dist/main-test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.14.25"
+  }
+}
