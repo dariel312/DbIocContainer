@@ -10,10 +10,12 @@ A container library for resolving dependencies. Library uses decorators to mark 
 Install node modules
 `npm install`
 
+## Compile
+Execute `npm run compile` or `tsc --sourceMap`. Npm compile command executes TST under the hood.
 
 ## Run
+Run the main-test.ts file. This will automatically compile before running.
 `npm run run`
-
 
 ## Usage
 ```
